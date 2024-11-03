@@ -1,0 +1,13 @@
+:root{
+    --yellow: #a98c37;
+}
+body {
+    background: #000;
+    color: wheat;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    display: flex; 
+    justify-content: center;
+     align-items:center;
+   
+}

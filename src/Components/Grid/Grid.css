@@ -1,0 +1,23 @@
+.grid {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+.reset{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: var(--yellow);
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: black;
+    border-radius: 5px;
+    &:hover{
+        background: orangered;
+        color: white;
+    }
+}
